@@ -1,0 +1,131 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+    /* Cores */
+    --cor-do-fundo:#ADD8E6;
+    --cor-do-texto:#fff;
+    --cor-alternativa-do-texto:#000;
+
+    --border-color:#87CEFA;
+    --border:#fff;
+    --border-sombra:#f0f4f7;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: var(--cor-do-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10vh 0 0 0;
+}
+
+/* Central de todas as informações */
+.central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--border-color);
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: backInUp;
+    animation-duration: 2s;
+}
+
+/* Nome da cidade */
+#Nomedacidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Nomedacidade h1 {
+    color: #fff;
+    font-size: 9vh;
+    animation-fill-mode: forwards;
+    animation: backInDown;
+    animation-duration: 2s;
+}
+
+/* Temperatura */
+#temperatura{
+    color: #fff;
+    font-size: 9vh;
+    animation-fill-mode: forwards;
+    animation: backInDown;
+    animation-duration: 2s;
+}
+
+/* Parte do Weather Icon */
+.weather-icon{
+    visibility: hidden;
+}
+.weather-icon img{
+    height: 10vh;
+    width: auto;
+    animation: backInDown;
+    animation-duration: 2s;
+}
+
+.weather-icon img.onload {
+    visibility: visible;
+}
+
+
+
+/* Animação */
+@keyframes up {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Outras telas */
+@media (max-width: 768px) {
+    .central {
+      width: 80vw;
+      height: 70vh;
+    }
+  
+    #Nomedacidade h1 {
+      font-size: 7vh;
+    }
+  
+    #temperatura {
+      font-size: 7vh;
+    }
+  
+    .weather-icon img {
+      height: 8vh;
+    }
+  }
+  
