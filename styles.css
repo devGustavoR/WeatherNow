@@ -39,8 +39,8 @@ body {
     align-items: center;
 
     background-color: var(--border-color);
-    height: 50vh;
-    width: 50vw;
+    height: 85vh;
+    width: 35vw;
     border: 2px solid var(--border);
     border-radius: 10px;
     padding: 20px;
@@ -55,7 +55,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #Nomedacidade h1 {
@@ -77,10 +76,15 @@ body {
 
 /* Parte do Weather Icon */
 .weather-icon{
+    font-size: 5rem;
+    visibility: visible;
+}
+
+.weather-icon{
     visibility: hidden;
 }
 .weather-icon img{
-    height: 10vh;
+    height: 15vh;
     width: auto;
     animation: backInDown;
     animation-duration: 2s;
@@ -112,7 +116,7 @@ body {
 /* Outras telas */
 @media (max-width: 768px) {
     .central {
-      width: 80vw;
+      width: 85vw;
       height: 70vh;
     }
   
@@ -125,7 +129,7 @@ body {
     }
   
     .weather-icon img {
-      height: 8vh;
+      height: 15vh;
     }
   }
   
