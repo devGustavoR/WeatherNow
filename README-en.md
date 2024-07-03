@@ -15,12 +15,12 @@
 <a href="https://github.com/devGustavoR/WeatherNow/blob/main/README.md">PT-BR</a>
 </div>
 
-### 📖 Sobre
+### 📖 About
 
-Este projeto é uma aplicação web simples que exibe a previsão do tempo para a cidade em que o usuário está localizado. A aplicação utiliza a API de previsão do tempo do OpenWeatherMap para obter os dados.
+This project is a simple web application that displays the weather forecast for the city where the user is located. The application uses the OpenWeatherMap weather forecast API to obtain the data.
 
-### 🚀 Tecnologias utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias
+### 🚀 Technologies Used
+The project was developed using the following technologies:
 
 - HTML
 - CSS
@@ -28,7 +28,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [API OpenWeatherMap](https://openweathermap.org/)
 
 
-### 🎲 Rodando o Front-End
+### 🎲 Running the Front-End
 
 ```bash
 # Clone este repositório
@@ -38,24 +38,23 @@ $ git clone https://link-para-o-projeto
 
 $ index.html
 ```
-### 🤝 Como Contribuir
+### 🤝 How to Contribute
 
-Se você quiser contribuir para este projeto, por favor, siga as orientações abaixo:
+If you want to contribute to this project, please follow the guidelines below:
 
-1. Faça o fork do projeto
-2. Crie um branch com a sua feature: `git checkout -b feature/nova-feature`
-3. Faça commit das suas alterações: `git commit -m 'Adicionando nova feature'`
-4. Faça o push do branch para o seu fork: `git push origin feature/nova-feature`
-5. Abra um pull request para a branch `main` do projeto original
+Fork the project
+Create a branch with your feature: git checkout -b feature/new-feature
+Commit your changes: git commit -m 'Adding new feature'
+Push the branch to your fork: git push origin feature/new-feature
+Open a pull request to the main branch of the original project
 
-### 📝 Licença
+### 📝 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+### 🙏 Acknowledgments
 
-### 🙏 Agradecimentos
-
-- [OpenWeatherMap](https://openweathermap.org/api) por disponibilizar a API utilizada neste projeto.
-- [GitHub](https://github.com/) por fornecer uma plataforma excelente para compartilhar códigos e colaborar com outros desenvolvedores.
+- [OpenWeatherMap](https://openweathermap.org/api) for providing the API used in this project.
+- [GitHub](https://github.com/) for providing an excellent platform to share code and collaborate with other developers.
 
 ### 👨‍💻 Autor
 
@@ -65,7 +64,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
  <sub><b>Gustavo Ribeiro</b></sub></a> <a href="https://github.com/devGustavoR" title="Github">🚀</a>
 
 
-Feito com ❤️ por Gustavo Ribeiro 👋🏽 Entre em contato!
+Made with ❤️ by Gustavo Ribeiro 👋🏽 Get in touch!
+
 
 [![Twitter Badge](https://img.shields.io/badge/-@devgustavor-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/devwuors)](https://twitter.com/wuors) [![Linkedin Badge](https://img.shields.io/badge/-GustavoR-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/devgustavor)](https://www.linkedin.com/in/devgustavor) 
 [![Gmail Badge](https://img.shields.io/badge/-devgustavor@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:devgustavor@gmail.com)](mailto:devgustavor@gmail.com)
